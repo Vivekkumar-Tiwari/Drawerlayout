@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/img"
+    android:padding="20dp"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#979696"
+        android:elevation="0dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="VivekKumar"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#070707"/>
+        <TextView
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="vt9295872@gmail.com"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:textColor="#6A6666"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
